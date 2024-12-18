@@ -1,0 +1,4 @@
+type Mutation {
+    SaveBook(book: BookInput): Book
+    getBookByTitle(title: String): Book
+}
